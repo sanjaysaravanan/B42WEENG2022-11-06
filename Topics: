@@ -1,0 +1,144 @@
+Topics:
+
+  datatypes: number(integer), string, 
+
+  variables: let, const
+    name given to a memory location, storing a data in a memory location
+    js variables can be declared by using var, let, const
+
+    syntax: var <variable-name> = some-value; let <variable-name> = some-value;
+    const <variable-name> = some-value;
+
+    declaration & assignment:
+
+      declaration: specifying type of variable
+      assignment/initialization: giving/changing some value of a type of varaiable
+
+    var age; // declaration
+    age = 23; // initialization/assignment
+
+
+    var age=23; // declaration and initialization // gloable scope
+    let name="guvi"; // blocked scope
+
+    const mark = 99; // const should declared and initialized on a single line
+    // output statements
+    console.log(name, age);
+
+    questions on datatype
+    typeof <variable-name>
+    console.log(typeof age);
+
+    let & const is block scope
+
+    var global scope
+
+    const is a constant variable which can be assigned only once
+    const PI = 3.1412; 
+
+    let, var
+
+  scopes:
+    global ---> parent scope every scopes ()
+
+    function ( inside function (){} )
+
+    block {}
+
+  {} ---> block of lines
+
+  [] ---> Array of elements
+
+  () ---> methods/functions
+
+  looping, conditions, arrays & simple problems
+
+  looping: it is a process of repeating a block statements again and again
+
+    for, while, do while
+
+    how many times or when to stop the looping
+
+    concepts in looping
+    initialization, termination condition, inc/drec
+
+    for(var i=0; i<10; i++) {
+
+    }
+
+    loop through 2, 4, 6, 8, 10
+
+    ascending 1, 2, 3, ,4 5
+    descending 5 4 3 2 1
+
+    show in python visualization
+  
+    Question: print the first 10 multiples 12
+  
+  Conditional Statements:
+
+    Operators:
+
+    Arithemetic: +, -, *, /, %( 5 % 2 ---> 1 ( remainder) )
+    Assignment: =
+    Logical: &(and), |(or), !(not), &&, ||
+    compariason: >, <, >=, <=, !=, ==, ===
+    Boolean: true or false
+
+    == vs ===
+
+    LHS vs RHS
+
+    console.log(2 == "2"); // loose comparison type will not be considered 
+    console.lolg(2 === "2"); // strict comparison ( type will also be considered )
+
+    evaluates a condition and decides the executions
+    if ---> true if block will be executed 
+
+    else ---> false else block execution
+
+    if else
+
+    % ---> modulus
+
+    Code for Odd or Even Numbers
+
+  Array: it is sequential memory location
+
+    Array index always starts from 0
+
+    accessing values of an array
+
+    array can contain elements of multiple types
+
+    get length of an array
+
+  Loop thorugh an array of elements
+  for(var a=0;a<arr.length;i++) {
+    console.log()
+  }
+
+  // last element of the array
+  console.log(arr[arr.length - 1]);
+
+  print all the even numbers of the array
+
+  // some other delimiters
+  string.split();
+
+  arr = 
+
+  array.join("-"); // join elements of an array with some delimiters
+
+  IDE & template
+
+    user inputing line by line using userInput array
+
+    codekata solving
+
+    problem:
+      odd or even
+
+  
+  
+
